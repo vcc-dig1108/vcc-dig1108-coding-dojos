@@ -1,4 +1,33 @@
 <?php
+/**
+ * Retrospective:
+ *
+ * What did we do well?
+ *   - Started out simply: easiest solutions first
+ *   - Refactored early
+ *   - Added nice documentation
+ *
+ * What should we improve?
+ *   - Maybe test more numbers than just +1, -1, and 0...?
+ *   - Maybe commit between pairs to show progress?
+ *   - Maybe start with tests at the bottom?
+ *   - Maybe more time per pair?
+ *
+ * Did we meet our goals? Why?
+ *   - Tests for every required function.
+ *   - Tests for all representative inputs.
+ *   - Took time to refactor
+ *   - Learned:
+ *     - refactoring tricks
+ *     - foreach syntax
+ *     - list syntax (kinda)
+ *     - assert() with string (kinda)
+ *     - magic strings (kinda)
+ *
+ * For next time:
+ *   - Do the simplest  thing possible first! Baby steps.
+ *   - Commit between pairs to show progress.
+ */
 
 /**
  * @param string $operator name to test, e.g. "addition", "subtraction"
