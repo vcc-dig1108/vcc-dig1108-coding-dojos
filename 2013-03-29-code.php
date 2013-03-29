@@ -32,3 +32,11 @@ function multiplication($a, $b)
     return $a * $b;
 }
 
+function division($a, $b)
+{
+    if(!$b)
+    {
+        return 0;
+    }
+    return $a / $b;
+}
