@@ -19,6 +19,9 @@ $hallway = pass($hallway);
 
 assert($hallway === '1111111111');
 
+assert(pass($hallway) === '1010101010');
+
+
 
 
 
