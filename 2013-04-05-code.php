@@ -15,3 +15,8 @@ function hallway($size)
 {
     return str_pad('', $size, '0');
 }
+
+function pass()
+{
+    return '1111111111';
+}
