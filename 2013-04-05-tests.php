@@ -1,7 +1,12 @@
 <?php // TEST CODE
-
+/**
+ * Retro reminders:
+ *  - Refactor early!
+ *  - Commit on GREEN!
+ */
 require '2013-04-05-code.php';
 
-// Tests go here...
+assert(strlen($hallway) === 10);
+assert($hallway === '0000000000');
 
-echo 'Ran tests in ' . basename(__FILE__);
+echo 'Ran tests in ', basename(__FILE__), "\n", 'Remember to commit on GREEN!';
