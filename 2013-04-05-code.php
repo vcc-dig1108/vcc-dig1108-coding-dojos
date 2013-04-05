@@ -12,3 +12,6 @@
  */
 
 $hallway = '0000000000';
+function hallway($size)
+{
+}
