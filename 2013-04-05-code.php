@@ -11,7 +11,7 @@
  * What is the state of the hallway?
  */
 
-$hallway = '0000000000';
 function hallway($size)
 {
+    return str_pad('', $size, '0');
 }
