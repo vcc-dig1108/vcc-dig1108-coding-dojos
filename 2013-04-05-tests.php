@@ -14,7 +14,14 @@ $hallway = hallway(10);
 
 assert($hallway === '0000000000');
 assert(pass($hallway) === '1111111111');
+
+$hallway = pass($hallway);
+
 assert($hallway === '1111111111');
+
+
+
+
 
 {
     $hallway = hallway(100);
