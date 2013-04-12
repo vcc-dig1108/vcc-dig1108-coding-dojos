@@ -1,15 +1,22 @@
 <?php // TEST FILE
 require '2013-04-12-code.php';
 /**
- * A hallway has 100 closed doors.
- * Take a walk down the hallway. Stop at every door and open it.
- * Take a walk down the hallway. Stop at every _other_ door and close it.
- * Take a walk down the hallway. Stop at every _third_ door.
- *      If open, close it. If closed, open it.
- * Take a walk down the hallway. Stop at every _fourth_ door.
- *      If open, close it. If closed, open it.
- * Repeat this pattern 100 times.
- * What is the state of the hallway?
+ * Retrospective:
+ *
+ * What did we do well?
+ *   - Better test plan
+ *   - Refactored eventually
+ *
+ * What should we improve?
+ *   - Refactor earlier, stay DRY (Don't Repeat Yourself)
+ *   - Better function names: pass1() -> doPass1() ??
+ *   - Improve representative data set:
+ *     - test each pass with 0000000000 AND 1111111111
+ *   - Follow the spec
+ *
+ * Did we meet our goals?
+ *   - no.
+ *
  */
 
 // test: can we make a hallway with 10 doors?
