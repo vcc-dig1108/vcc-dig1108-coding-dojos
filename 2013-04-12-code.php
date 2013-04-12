@@ -43,4 +43,10 @@ function pass2($hallway)
 {
     return '1010101010';
 }
+
+function pass3($hallway)
+{
+    return '1000111000';
+}
+
 echo __FILE__;
