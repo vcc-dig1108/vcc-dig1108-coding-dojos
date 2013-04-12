@@ -19,9 +19,19 @@ assert(strlen(createHall(10)) === 10);
 assert(createHall(10) === '0000000000');
 
 // call: pass1() on hallway
+$hallway = createHall(10);
+assert(pass1($hallway) === '1111111111');
+
 // test: hallway match expected: '1111111111'
+$hallway = '1111111111';
+assert($hallway === '1111111111');
+
+
 // call: pass2() on hallway
+assert(pass2($hallway) === '1010101010');
 // test: hallway match expected: '1010101010'
+$hallway = '1010101010';
+assert($hallway === '1010101010');
 // call: pass3() on hallway
 // test: hallway match expected: '1000111000'
 // call: pass4() on hallway

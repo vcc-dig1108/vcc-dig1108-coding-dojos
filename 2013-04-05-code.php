@@ -18,5 +18,5 @@ function hallway($size)
 
 function pass()
 {
-    return '1010101010';
+    return '';
 }

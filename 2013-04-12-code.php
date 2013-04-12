@@ -20,8 +20,6 @@
 function createHall($size)
 {
     return '0000000000';
-
-
 }
 
 /**
@@ -30,6 +28,10 @@ function createHall($size)
  * @param string $hallway represented by '1' and '0'
  * @return string state of $hallway after pass 1
  */
+function pass1($hallway)
+{
+    return '1111111111';
+}
 
 /**
  * Function "pass2()" walks down a $hallway and applies the rules for the second pass.
@@ -37,5 +39,8 @@ function createHall($size)
  * @param string $hallway represented by '1' and '0'
  * @return string state of $hallway after pass 2
  */
-
+function pass2($hallway)
+{
+    return '1010101010';
+}
 echo __FILE__;
