@@ -39,8 +39,16 @@ function firstPass($hallway)
 // second pass: function(string $hallway): a new Hallway, 2nd state of hallway
 function secondPass($hallway)
 {
-    return str_pad($input = '', strlen($hallway), $pad_string = '01');
+    $array = str_split($hallway);
+    // Takes the String $hallway and convert to array.
+    // Select every second value.
+    // Feed that value to porter as $door.
+    // Recieve new value from porter.
+    // Insert new value into array, equal to previous index.
+    // Convert array to string: $hallway.
+    return implode($array);
 }
+
 
 // third pass: function(string $hallway): a new Hallway, 3rd state of hallway
 
