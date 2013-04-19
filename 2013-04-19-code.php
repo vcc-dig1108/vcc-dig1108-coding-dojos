@@ -14,7 +14,7 @@
 // a Hallway: string of '1' or '0' with length = number of doors ($N)
 function hallway($n)
 {
-    return str_pad('0', $n, STR_PAD_LEFT);
+    return str_pad($input = '', $pad_length = $n, $pad_string = '0');
 }
 
 // get a hallway of $N doors: function(integer $N): string of $N x '0', initial state of hallway

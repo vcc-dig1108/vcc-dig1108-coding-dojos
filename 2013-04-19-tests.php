@@ -5,6 +5,11 @@ require '2013-04-19-code.php';
 // test: hallway(10) == '0000000000'
 
 assert(hallway(10) == '0000000000');
+assert(hallway(0)  == '');
+assert(hallway(2)  == '00');
+assert(hallway(2)  == '11');
+
+
 
 // test: porter('1') == '0'
 // test: porter('0') == '1'
