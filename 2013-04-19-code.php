@@ -20,6 +20,10 @@ function hallway($n)
 // get a hallway of $N doors: function(integer $N): string of $N x '0', initial state of hallway
 
 // open or close a door: function(string '1' or '0'): string '1' or '0', next state of door
+function porter($door)
+{
+    return '0';
+}
 
 // first pass: function(string $hallway): a new Hallway, 1st state of hallway
 
