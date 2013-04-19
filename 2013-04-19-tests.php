@@ -1,4 +1,22 @@
 <?php // TEST CODE
+/**
+ * Retrospective:
+ *
+ * What did we do well?
+ *  - baby steps
+ *  - well-defined test plan
+ *
+ * What should we improve?
+ *  - PRACTICE ALREADY
+ *  - READ THE MANUAL
+ *  - UNDERSTAND BEFORE TYPING
+ *  - REVIEW PREVIOUS DOJOS
+ *
+ * Did we meet our goals?
+ *  - account for NULL cases
+ *  - fear not the typing
+ *  - str_split(), implode(), strlen()
+ */
 
 require '2013-04-19-code.php';
 
