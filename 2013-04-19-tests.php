@@ -20,6 +20,10 @@ assert(firstPass('0000000000') == '1111111111');
 assert(firstPass('00')  == '11');
 
 // test: secondPass(hallway(10)) == '0101010101'
+assert(secondPass(hallway(10)) == '0101010101');
+assert(secondPass(hallway(2)) == '01');
+assert(secondPass(hallway(3)) == '010');
+assert(secondPass('111') == '101');
 
 // test: thirdPass(hallway(10)) == '0010010010'
 

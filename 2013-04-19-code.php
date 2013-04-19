@@ -37,6 +37,10 @@ function firstPass($hallway)
 }
 
 // second pass: function(string $hallway): a new Hallway, 2nd state of hallway
+function secondPass($hallway)
+{
+    return str_pad($input = '', strlen($hallway), $pad_string = '01');
+}
 
 // third pass: function(string $hallway): a new Hallway, 3rd state of hallway
 
