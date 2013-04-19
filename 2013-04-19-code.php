@@ -22,10 +22,19 @@ function hallway($n)
 // open or close a door: function(string '1' or '0'): string '1' or '0', next state of door
 function porter($door)
 {
+    if($door == '0')
+    {
+        return '1';
+    }
+
     return '0';
 }
 
 // first pass: function(string $hallway): a new Hallway, 1st state of hallway
+function firstPass($hallway)
+{
+    return '1111111111';
+}
 
 // second pass: function(string $hallway): a new Hallway, 2nd state of hallway
 
